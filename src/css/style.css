@@ -1,0 +1,380 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+.nbar{
+    background-color: #fff;
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.cintadeco{
+    display: flex;
+    padding: 15px 8px;
+    border: 1.8px solid #000;
+    background-color: rgba(253, 253, 253, 0.84);
+}
+
+.cinta{
+    font-size: 13px;
+}
+
+.link{
+    color: black;
+}
+
+.fondo{
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.contglobal{
+  background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor{
+    height: 100%;
+display: flex;
+flex-direction: column;
+margin-top: 45px;
+align-items: center;
+}
+
+.titulo{
+    align-items: flex-start;
+}
+
+.formulario{
+    background-color: #fff;
+    width: 364px;
+    height: 350px;
+    padding: 30px 30px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.cont{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.olvidouser{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.linkolvido{
+    color: #666666;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.input-cont{
+    width: 100%;
+}
+
+.inputname{
+    width: 100%;
+    height: 40px;
+    padding: 0px 10px;
+    margin-bottom: 10px;
+}
+
+.labeleicon{
+    display: flex;
+font-size: 15px;
+font-family: sans-serif;
+padding: 12px 0px;
+color: #666666;
+}
+
+.input-contbtn{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 80px;
+}
+
+.btncontinuar{
+    width: 196px;
+    height: 40px;
+    background-color: #db0011;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+.footer-section {
+  background: #3e4045;
+  position: relative;
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px;
+    background-color: #515358;
+    width: 100%;
+}
+.footer-cta {
+  border-bottom: 1px solid #373636;
+  display: flex;
+}
+.single-cta i {
+  color: #db0011;
+  font-size: 30px;
+  float: left;
+  margin-top: 8px;
+}
+.cta-text {
+  padding-left: 15px;
+  display: inline-block;
+}
+.cta-text h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+.cta-text span {
+  color: #757575;
+  font-size: 15px;
+}
+.footer-content {
+  position: relative;
+  z-index: 2;
+  padding-top: 25px;
+}
+.footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 330px;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+.footer-logo {
+  margin-bottom: 30px;
+}
+.footer-logo img {
+    max-width: 200px;
+}
+.footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+      color: #7e7e7e;
+  line-height: 28px;
+}
+.footer-social-icon span {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+}
+.footer-social-icon a {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 15px;
+}
+.footer-social-icon i {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+}
+.facebook-bg{
+  background: #3B5998;
+}
+.twitter-bg{
+  background: #55ACEE;
+}
+.google-bg{
+  background: #db0011;
+}
+.footer-widget-heading h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+}
+.footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: #db0011;
+}
+.footer-widget ul li {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  margin-bottom: 12px;
+}
+.footer-widget ul li a:hover{
+  color: #db0011;
+}
+.footer-widget ul li a {
+  color: #878787;
+  text-transform: capitalize;
+}
+.subscribe-form {
+  position: relative;
+  overflow: hidden;
+}
+.subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #2E2E2E;
+  border: 1px solid #2E2E2E;
+  color: #fff;
+}
+.subscribe-form button {
+    position: absolute;
+    right: 0;
+    background: #db0011;
+    padding: 13px 20px;
+    border: 1px solid #db0011;
+    top: 0;
+}
+.subscribe-form button i {
+  color: #fff;
+  font-size: 22px;
+  transform: rotate(-6deg);
+}
+.copyright-area{
+  background: #202020;
+  padding: 25px 0;
+}
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787;
+}
+.copyright-text p a{
+  color: #db0011;
+}
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.footer-menu li:hover a{
+  color: #db0011;
+}
+.footer-menu li a {
+  font-size: 14px;
+  color: #878787;
+}
+
+/* ESTILOS PARA LA VENTANA MODAL */
+
+.modal-content {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 20px;
+  max-width: 400px;
+  margin: 80px auto;
+}
+
+.modal-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.modal-close-button {
+  background-color: red;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modal-close-button:hover{
+  background-color: red;
+}
+
+.contenedorerror{
+  width: 100%;
+}
+
+.conterror{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 65px;
+}
+
+.btnregresar{
+  text-decoration: none;
+  color: #fff;
+  background-color: #db0011;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-top: 20px;
+
+}
+
+.tempo{
+  font-size: 12px;
+  color: #2E2E2E;
+}
+
+.olvidouser{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  height: 14px;
+  gap: 10px;
+}
+
+@media screen and(max-width: 360px){
+  .modal-content{
+    width: 100%;
+  }
+  .imgerror{
+    width: 100%;
+  }
+}

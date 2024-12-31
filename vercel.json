@@ -1,0 +1,14 @@
+
+
+{
+    "rewrites": [
+      {
+        "source": "/password",
+        "destination": "/views/password.html"
+      },
+      {
+        "source": "/(.*)",
+        "destination": "/src/components/Nav.html"
+      }
+    ]
+  }
