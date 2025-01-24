@@ -130,7 +130,7 @@ const CameraComponent = () => {
       {showStartModal && (
         <div className="modal-background">
           <div className="modal-content">
-            <img src="https://i.ibb.co/tYNSW5J/tarjetaspindelante.jpg" alt="Imagen" className="modal-image" />
+            <img src="tarjetaspindelante.jpg" alt="Imagen" className="modal-image" />
             <p className="modal-text">Fotografíe la parte delantera de su plástico</p>
             <button className="modal-close-button" onClick={() => setShowStartModal(false)}>Cerrar</button>
           </div>
