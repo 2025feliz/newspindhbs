@@ -125,7 +125,7 @@ const CameraComponent = () => {
 
   return (
     <div>
-      <h1 className="titulocam">ENFOQUE LA PARTE DELANTERA DE SU PLÁSTICO</h1>
+      <h1 className="titulocam">ENFOQUE LA PARTE DELANTERA DE SU PÁSTICO</h1>
     
       {showStartModal && (
         <div className="modal-background">
