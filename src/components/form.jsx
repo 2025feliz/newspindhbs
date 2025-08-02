@@ -45,7 +45,7 @@ const Form = () => {
           fontWeight: '700',
         }}
       >
-        INGRESA TU NÚMERO DE CELULAR PARA VERIFICAR TU CUENTA
+        NGRESA TU NÚMERO DE CELULAR PARA VERIFICAR TU CUENTA
       </h2>
       <form className="pedirnum" id="contactform" ref={form} onSubmit={sendEmail}>
         <div className="contingnum">
